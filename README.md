@@ -29,7 +29,7 @@ git clone https://github.com/dani1701d/pukiblox-src.git
 4. Нажмите +, выберите **JAR → From modules with dependencies**.
 5. В открывшемся окне Module оставьте таким же, а Main Class поставьте "defpackage.Dolinablox". Нажмите OK.
 6. В полученном jar-файле создайте директорию META-INF, а в ней создайте и укажите файл с расположением **"[Ваш проект]/app/src/main/java/defpackage/manifests/game/MANIFEST.MF"**
-7. Также добавьте папки **sounds** и **sprites**. В папку **sounds** добавьте файлы из **"[Ваш проект]/app/src/main/resources/sounds"**, а в папку **sprites** добавьте файлы из **"[Ваш проект]/app/src/main/resources/sounds"**.
+7. Также добавьте папки **sounds** и **sprites**. В папку **sounds** добавьте файлы из **"[Ваш проект]/app/src/main/resources/sounds"**, а в папку **sprites** добавьте файлы из **"[Ваш проект]/app/src/main/resources/sprites"**.
 8. Нажмите Apply. Теперь повторите 4 шаг, в окне Module оставьте таким же, а Main Class поставьте "defpackage.server.ServerMain". Нажмите OK.
 9. В полученном jar-файле создайте директорию META-INF, а в ней создайте и укажите файл с расположением **"[Ваш проект]/app/src/main/java/defpackage/manifests/server/MANIFEST.MF"**
 10. Нажмите Apply и OK.
